@@ -9,7 +9,7 @@ int main(void) {
     int size = 0;
     cin >> size;
 
-    for (int i = 0; i < size; ++i)
+    while(size--)
     {
         string str;
         int j = 0;
@@ -55,6 +55,6 @@ int main(void) {
             }
 
         }
-        
+
     }
 }
